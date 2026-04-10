@@ -29,17 +29,12 @@ CONFIG_FILE = DB_DIR / "alive_config.json"
 
 
 # ---------------------------------------------------------------------------
-ALIVE_BUTTONS = [
-    [
-        Button.url("💬 Support", "https://t.me/cipherelite_support"),
-        Button.url("📢 Channel", "https://t.me/THANOS_PRO"),
-    ]
-]
-
+ALIVE_BUTTONS = []
+    
 # Global cache to pass data from Userbot -> Assistant Bot
 # This ensures the bot sends exactly what the userbot calculated.
 INLINE_DATA = {
-    "alive_text": "CipherElite is Online",
+    "alive_text": "Nightmare Protocol is Active",
     "alive_media": None,
     "ping_text": "Pong!",
     "ping_media": None
@@ -112,7 +107,7 @@ def get_readable_time(seconds: float) -> str:
     return ":".join(reversed(time_list))
 
 ALIVE_STYLES = [
-    r"""⚡ 𝘾𝙄𝙋𝙃𝙀𝙍 𝙀𝙇𝙄𝙏𝙀 𝙎𝙔𝙎𝙏𝙀𝙈 ⚡
+    r"""⚡ 𝗡𝗜𝗚𝗛𝗧𝗠𝗔𝗥𝗘 𝗡𝗘𝗧𝗪𝗢𝗥𝗞 𝗦𝗬𝗦𝗧𝗘𝗠 ⚡
 
 ▰▱▰▱▰▱▰▱▰▱▰▱▰▱
 ➺ 𝙈𝘼𝙎𝙏𝙀𝙍: {name}
@@ -124,8 +119,8 @@ ALIVE_STYLES = [
 ⚔️ 𝙐𝙋𝙏𝙄𝙈𝙀: {uptime}
 ⚔️ 𝘽𝙍𝘼𝙉𝘾𝙃: MASTER
 
-▰▱▰▱ ELITE NETWORK ▰▱▰▱""",
-    r"""╔══『 CIPHER ELITE 』══╗
+▰▱▰▱ NIGHTMARE NETWORK ▰▱▰▱""",
+    r"""╔══『 KRISHNA PRIME 』══╗
 
 ◈ CODENAME: {name}
 ◈ VERSION: [1.0]
@@ -135,7 +130,7 @@ ALIVE_STYLES = [
 ▣ UPTIME: {uptime}
 ▣ STATUS: OPERATIONAL
 
-╚══『 ELITE FORCE 』══╝""",
+╚══『 PRIME FORCE 』══╝""",
 ]
 
 PING_STYLES = [
@@ -150,7 +145,7 @@ PING_STYLES = [
 ◈ SPEED: [{speed}ms]
 ◈ UPTIME: [{uptime}]
 
-╚══『 CIPHER ELITE 』══╝""",
+╚══『 KRISHNA PRIME 』══╝""",
 ]
 
 user_config = UserConfig()
