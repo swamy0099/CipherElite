@@ -119,7 +119,7 @@ ALIVE_STYLES = [
 ⚔️ 𝙐𝙋𝙏𝙄𝙈𝙀: {uptime}
 ⚔️ 𝘽𝙍𝘼𝙉𝘾𝙃: MASTER
 
-▰▱▰▱ NIGHTMARE NETWORK ▰▱▰▱""",
+▰▱ NIGHTMARE NETWORK ▰▱""",
     r"""╔══『 KRISHNA PRIME 』══╗
 
 ◈ CODENAME: {name}
