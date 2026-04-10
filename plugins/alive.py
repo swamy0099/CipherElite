@@ -3,7 +3,7 @@
 #
 #  Plugin Name:    alive
 #  Author:         CipherElite Dev (@rishabhops)
-#  Repository:     https://github.com/rishabhops/CipherElite
+#  Repository:     https://github.com/swamy0099/CipherElite
 #
 #  License:        MIT
 # =============================================================================
