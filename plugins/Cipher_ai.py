@@ -1,8 +1,8 @@
 # =============================================================================
 #  CipherElite Userbot Plugin
 #
-#  Plugin Name:    cipher_ai
-#  Author:         CipherElite Dev (@rishabhops)
+#  Plugin Name:    Nightmare_ai
+#  Author:         Nightmare Network Krishna (@rishabhops)
 #  Repository:     https://github.com/rishabhops/CipherElite
 #
 #  LICENSE:        MIT
