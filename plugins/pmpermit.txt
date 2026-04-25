@@ -12,7 +12,7 @@ import logging
 
 class AssistantConfig:
     ALIVE_NAME = os.environ.get("ALIVE_NAME", "Master")
-    ASSISTANT_NAME = os.environ.get("ASSISTANT_NAME", "CipherAI")
+    ASSISTANT_NAME = os.environ.get("ASSISTANT_NAME", "NightmareAI")
     PMPERMIT_PIC = os.environ.get("PMPERMIT_PIC", None)
     MAX_WARNINGS = int(os.environ.get("MAX_WARNINGS", 5))
     DATA_DIR = "data"
@@ -26,7 +26,7 @@ class AssistantConfig:
             "Type 'ok' or 'okay' to acknowledge."
         ],
         'acknowledgment': [
-            "Thank you for understanding! 🙂\n"
+            "Noted, Krishna will get back to you soon! 🙂\n"
             f"I'll notify {ALIVE_NAME} about your message.\n"
             "Please wait patiently for approval."
         ],
